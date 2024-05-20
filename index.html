@@ -47,26 +47,26 @@
                     <img src="immagine2.jpg" alt="Immagine 2">
                 </picture>
 
+            <form action="" method="get" id="form">
                 <div>
                     <label for="nome" id="nome">Nome</label>
                     <input type="text" name="nome">
+                </div>
+                <div>
                     <label for="">Scrivi un messaggio</label>
-                <textarea name="textarea" id="textarea" cols="20" rows="10"></textarea>
+                    <textarea name="textarea" id="textarea" cols="20" rows="10"></textarea>
                 </div>
                 <img src="download.svg" alt="">
-                <form id="form">
-                    <label for="gender">Inserisci il genere:
+                
+                    <label for="gender" id="gender" name="gender">Inserisci il genere:
                         <input type="radio" name="gender" value="male" >Male 
                         <input type="radio" name="gender" value="female" >Female
                     </label>
-                    <label for="privacy">
-                        <input type="checkbox"> Privacy
+                    <label for="privacy" id="privacy" name="privacy">
+                        <input type="checkbox" name="checkbox"> Privacy
                     </label>
-                    <button type="submit">Invia</button>
-
-                    
-                    
-                </form>
+                    <button type="submit">Invia</button>     
+            </form>
         </section>
         <section id="tabella">
             <table>
